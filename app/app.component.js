@@ -18,7 +18,7 @@ var AppComponent = (function () {
 AppComponent = __decorate([
     core_1.Component({
         selector: 'my-app',
-        template: "\n    <h1>Hello, {{name || 'World'}}</h1>\n    <input type=\"text\" [(ngModel)] = \"name\" placeholder=\"name\">\n\n  "
+        template: "\n    <div class=\"container\">\n      <div class=\"page-header\">\n        <h2>Bootstrap/Angular 2 Rocks! <small>Hello, World</small></h2>\n      </div>\n      <div class=\"jumbotron\">\n        <h1>Hello, {{name || 'World'}}</h1>\n        <input type=\"text\" [(ngModel)] = \"name\" placeholder=\"name\" class=\"form-control form-control-lg\">\n      </div>\n    </div>\n  "
     })
 ], AppComponent);
 exports.AppComponent = AppComponent;
